@@ -3,7 +3,7 @@ package service;
 import model.User;
 import util.PriceGenerator;
 
-public class TradingService {
+public class trading{
 
     public void buy(User user, String asset, double quantity) {
         double price = PriceGenerator.getPrice(asset);
